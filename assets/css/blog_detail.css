@@ -1,0 +1,149 @@
+
+@media (max-width:855px){
+    .blog_menu{
+        width: 99%;
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+    .blog_search_bar{
+        padding: 2%;
+        margin: 1%;
+        margin-bottom: 15px;
+    }
+    .blog_p_feeds{
+        padding: 2%;
+        margin: 1%;
+        margin-bottom: 15px;
+    }
+    .blog_popular_tags{
+        padding: 2%;
+        margin: 1%;
+        margin-bottom: 15px;
+    }
+}
+
+/* ????????????????/////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ????????????????/////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ????????????????/////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ????????????????/////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ????????????????/////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.blog_view{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.b_c_section{
+    min-width: 300px;
+    flex-grow: 1.2;
+}
+.blog_comment_form{
+    padding: 5%;
+    width: 70%;
+    background-color: white;
+}
+.blog_comment_title{
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 800;
+    border-bottom: 1px  solid rgba(0, 0, 0, 0.2);
+    margin-top: 0;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+}
+#b_c_label{
+    display: inline-block;
+    font-size: 1.7vw;
+    font-weight: 500;
+    width: 5em;
+}
+.b_co_box{
+    display: flex;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#b_c_name_in{
+    width: 99%;
+    padding: 0.5%;
+    border: 0.6px solid rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+#b_c_email_in{
+    width: 99%;
+    padding: 0.5%;
+    border: 0.6px solid rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+#b_c_comment_in{
+    width: 99%; 
+  height: 12vw; 
+  padding: 0.5vw; 
+  border: 0.6px solid rgba(0, 0, 0, 0.3);
+  font-size: 16px; 
+  border-radius: 7px; 
+}
+#b_c_submit{
+    margin-left: 42%;
+    padding:5px;
+  border: 0.6px solid rgba(0, 0, 0, 0.3);
+
+    font-size: 15px;
+    border-radius: 15px;
+    width: 100px;
+}
+#b_c_submit:hover {
+    background-color:#80b500; /* Darken background color on hover */
+}
+.b_c_section{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 5%;
+    margin-top: 19px;
+    background-color:rgba(255, 255, 255,0.8);
+  border: 0.6px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+}
+#b_d_img{
+    width: 100%;
+    border-radius: 10px 10px 0px  0px;
+    margin-bottom: 20px;
+}
+.b_d_co{
+    display: flex;
+    justify-content: center;
+}
+#b_d_title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+#b_d_p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+@media (max-width:426px){
+    #b_d_title{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 120%;
+        font-weight: 700;
+    }
+    #b_d_p{
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .blog_comment_form{
+        width: 95%;
+    }
+    #b_c_label{
+        font-size: 15px;
+    }
+}
+@media (max-width:900px){
+    #b_c_label{
+        font-size: 20px;
+    }
+}

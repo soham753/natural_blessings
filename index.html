@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Blessings</title>
+    <link rel="stylesheet" href="assets\css\1.css">
+</head>
+
+<body>
+    <header>
+        <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="homebar">
+            <div class="logo">
+                <img src="assets\img\logo.png" id="logo_img">
+            </div>
+            <div class="search">
+                <input type="text" id="search_input" placeholder="Search">
+            </div>
+            <div class="add">
+                <div id="add_i"> <a href="#select" id="add_hyper_text"> <img src="assets\img\add.png" id="add_img"><div id="loc">Select Location ▼</div> </a> </div>
+                
+
+                <div class="select" id="select">
+                    <div id="selectloc">Select A Location For Delivery</div>
+                    &nbsp
+                    <div id="locpara">Choose your address location to see product availability and delivery options
+                    </div>
+                    &nbsp;
+                    <div id="selecttag"><label for="city">
+                            <p id="a">Choose A City : -</p><br>
+                        </label>
+                        <select name="City" id="city">
+                            <option value="Surat">Surat</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Vadodara">Vadodara</option>
+                            <option value="Rajkot">Rajkot</option>
+                        </select>
+                        <div class="add_submit"><a href="#"><button type="submit"
+                                    id="add_submit_button">Submit</button></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="login">
+                <a href="#login_menu"><img src="assets\img\login.jpg" id="login_img"></a>
+            </div>
+            <div class="login_menu" id="login_menu">
+                <div class="f_line">
+                    <div class="login_text">Login</div>
+                    <div class="close">
+                        <div class="c_t"><a id="c_t1" href="#" class="closebtn">X</a></div>
+                    </div>
+                </div>
+                <div id="as">As : </div>
+                <select name="Login_user" id="user">
+                    <option value="Customer">
+                        Customer
+                    </option>
+                    <option value="farmer">
+                        farmer
+                    </option>
+                </select>
+                <div class="e_i">
+                    <label for="email_id">
+                        <input type="text" id="email_id" placeholder="Email id..">
+                    </label>
+                </div>
+                <div class="pass">
+                    <label for="password">
+                        <input type="text" id="password" placeholder="Password...">
+                    </label>
+                </div>
+                <button type="submit" id="e_s">Submit</button>
+            </div>
+        </div>
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="navbar">
+            <ul id="nav_ul">
+                <li  id="category" id="nav_li">
+                    <div class="category">
+                        <div id="category_icon">☰</div>
+                        <div id="category_text"> SHOPE BY CATEGORY 
+                            <ul id="s_b_c_ul">
+                                <li id="s_b_c_li">Vegetables</li>
+                                <li id="s_b_c_li">Fruits</li>
+                                <li id="s_b_c_li">Grains</li>
+                                <li id="s_b_c_li">Herbs</li>
+                                <li id="s_b_c_li">Dry Fruits</li>
+                                <li id="s_b_c_li">Organic Section</li>
+                            </ul>
+                        </div>
+                    </button>
+                        <div id="down_ward"> ⌵ </div>
+                    </div>
+                </li>
+                <li id="nav_li"><a href="index.html" id="home">Home</a></li>
+                <li id="nav_li">Organic</li>
+                <li id="nav_li"><a href="blog.html" id="about">Blog</a></li>
+                <li id="nav_li"><a href="about_us.html" id="about">About US</a></li>
+                <li id="nav_li"><a href="contact_us.html" id="about">Contact Us</a></li>
+                <li id="nav_li">
+                    <div id="star_icon">☆</div>
+                    <div id="best_offer_text">Best Offers</div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <div class="home_page" id="home_page">
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <div class="home_img">
+            <div id="home_img_1"><img src="assets\img\Home_page_img_1.png" id="home_page_img_1"></div>
+            <div id="home_img_2"><img src="assets\img\Home_page_img_2.png" id="home_page_img_2"></div>
+        </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+        <div id="f_p_main_text">Featured Products</div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="featured_products">
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+            <div id="featured_products_box">
+                <div id="featured_products_img_box">
+                    <img src="assets\img\f_p_1.jpg" id="featured_products_img">
+                </div>
+                <div class="f_p_text">
+                    <div id="featured_products_text">Beetroot 1Kg</div>
+                    <div id="featured_products_price">
+                        <div id="featured_products_price_current">52Rs.</div>
+                        <div id="featured_products_price_cancle">65Rs.</div>
+                    </div>
+                    <div id="featured_products_buy"><button id="featured_products_buy_button"> Add To Cart </button></div>
+                </div>
+            </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+            <div id="featured_products_box">
+                <div id="featured_products_img_box">
+                    <img src="assets\img\f_p_2.jpg" id="featured_products_img">
+                </div>
+                <div class="f_p_text">
+                    <div id="featured_products_text">Blue Berry 1Kg</div>
+                    <div id="featured_products_price">
+                        <div id="featured_products_price_current">620Rs.  </div>
+                        <div id="featured_products_price_cancle">750Rs.</div>
+                    </div>
+                    <div id="featured_products_buy"><button id="featured_products_buy_button"> Add To Cart </button></div>
+                </div>
+            </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+            <div id="featured_products_box">
+                <div id="featured_products_img_box">
+                    <img src="assets\img\f_p_3.jpg" id="featured_products_img">
+                </div>
+                <div class="f_p_text">
+                    <div id="featured_products_text">Avocado 1Kg</div>
+                    <div id="featured_products_price">
+                        <div id="featured_products_price_current">135Rs.</div>
+                        <div id="featured_products_price_cancle">155Rs.</div>
+                    </div>
+                    <div id="featured_products_buy"><button id="featured_products_buy_button"> Add To Cart </button></div>
+                </div>
+            </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+            <div id="featured_products_box">
+                <div id="featured_products_img_box">
+                    <img src="assets\img\f_p_4.jpg" id="featured_products_img">
+                </div>
+                <div class="f_p_text"> 
+                    <div id="featured_products_text">Lettuce 1Kg</div>
+                    <div id="featured_products_price">
+                        <div id="featured_products_price_current">225Rs.</div>
+                        <div id="featured_products_price_cancle">300Rs.</div>
+                    </div>
+                    <div id="featured_products_buy"><button id="featured_products_buy_button"> Add To Cart </button></div>
+                </div>
+            </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+            <div id="featured_products_box" class="f_p_last_img">
+                <div id="featured_products_img_box">
+                    <img src="assets\img\f_p_5.jpg" id="featured_products_img">
+                </div>
+                <div class="f_p_text">
+                    <div id="featured_products_text">Tomato 1Kg</div>
+                    <div id="featured_products_price">
+                        <div id="featured_products_price_current">35Rs.</div>
+                        <div id="featured_products_price_cancle">50Rs.</div>
+                    </div>
+                    <div id="featured_products_buy"><button id="featured_products_buy_button"> Add To Cart </button></div>
+                </div>
+            </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+        </div>
+        <!-- ///////////////////////////////////////////////////////////////////////// -->
+        <div class="organic_section">
+            <div class="organic_section_icon">
+                <div class="organic_section_img_box"> <img src="assets\img\template_1.jpg" id="organic_section_img" > </div>
+                <div class="organic_section_text"><p id="organic_section_name">Organic products: </p> <p id="organic_section_discount"> Up to 80% off ! </p></div>
+            </div>
+        </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+        <div id="f_p_main_text">Organic Products</div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="organic_products">
+            <div class="o_product">
+                <div class="o_p_row_one">
+
+                    <span id="o_p_box">
+                        <div class="o_p_box_img"><img src="assets\img\o_p_1.jpg" id="o_p_img" ></div>
+                        <div id="o_p_text">
+                            <div class="o_p_info"><div id="o_p_name">Green-cill</div><div id="o_p_og">OG</div></div>
+                            <div class="o_p_weight">500 g</div>
+                            <div class="o_p_price">
+                                <div class="o_p_current_price">71 Rs</div>
+                                <div class="o_p_cancle_price">97 Rs</div>
+                            </div>
+                            <div class="o_p_box_button"><button id="o_p_button">Add To Cart</button></div> 
+                        </div>  
+                    </span>
+
+                    <span id="o_p_box">
+                        <div class="o_p_box_img"><img src="assets\img\o_p_2.jpg" id="o_p_img" ></div>
+                        <div id="o_p_text">
+                            <div class="o_p_info"><div id="o_p_name">Ginger</div><div id="o_p_og">OG</div></div>
+                            <div class="o_p_weight">500 g</div>
+                            <div class="o_p_price">
+                                <div class="o_p_current_price">77 Rs</div>
+                                <div class="o_p_cancle_price">105 Rs</div>
+                            </div>
+                            <div class="o_p_box_button"><button id="o_p_button">Add To Cart</button></div>  
+                        </div> 
+                    </span>
+
+                    <span id="o_p_box">
+                        <div class="o_p_box_img"><img src="assets\img\o_p_3.jpg" id="o_p_img" ></div>
+                        <div id="o_p_text">
+                            <div class="o_p_info"><div id="o_p_name">Banana</div><div id="o_p_og">OG</div></div>
+                            <div class="o_p_weight">1 Kg</div>
+                            <div class="o_p_price">
+                                <div class="o_p_current_price">73 Rs</div>
+                                <div class="o_p_cancle_price">110 Rs</div>
+                            </div>
+                            <div class="o_p_box_button"><button id="o_p_button">Add To Cart</button></div>   
+                        </div>
+                    </span>
+                    
+                </div>
+                <div class="o_p_row_two">
+
+                    <span id="o_p_box">
+                        <div class="o_p_box_img"><img src="assets\img\o_p_4.jpg" id="o_p_img" ></div>
+                        <div id="o_p_text">
+                            <div class="o_p_info"><div id="o_p_name">Strawberry</div><div id="o_p_og">OG</div></div>
+                            <div class="o_p_weight">200 g</div>
+                            <div class="o_p_price">
+                                <div class="o_p_current_price">63 RS</div>
+                                <div class="o_p_cancle_price">84 Rs</div>
+                            </div>
+                            <div class="o_p_box_button"><button id="o_p_button">Add To Cart</button></div>   
+                        </div>
+                    </span>
+
+                    <span id="o_p_box">
+                        <div class="o_p_box_img"><img src="assets\img\o_p_5.jpg" id="o_p_img" ></div>
+                        <div id="o_p_text">
+                            <div class="o_p_info"><div id="o_p_name">Mango</div><div id="o_p_og">OG</div></div>
+                            <div class="o_p_weight">1 Kg</div>
+                            <div class="o_p_price">
+                                <div class="o_p_current_price">335 Rs</div>
+                                <div class="o_p_cancle_price">399 Rs</div>
+                            </div>
+                            <div class="o_p_box_button"><button id="o_p_button">Add To Cart</button></div>   
+                        </div>
+                    </span>
+
+                    <span id="o_p_box">
+                        <div class="o_p_box_img"><img src="assets\img\o_p_6.jpg" id="o_p_img" ></div>
+                        <div id="o_p_text">
+                            <div class="o_p_info"><div id="o_p_name">Saunf</div><div id="o_p_og">OG</div></div>
+                            <div class="o_p_weight">500 g</div>
+                            <div class="o_p_price">
+                                <div class="o_p_current_price">349 Rs</div>
+                                <div class="o_p_cancle_price">399 Rs</div>
+                            </div>
+                            <div class="o_p_box_button"><button id="o_p_button">Add To Cart</button></div>   
+                        </div>
+                    </span>
+
+                </div>
+            </div>
+            <!-- ************************************************************8888 -->
+            <div class="o_p_more">
+                    <img src="assets\img\opm.png" id="o_p_m_img" >
+            </div>
+        </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="why_chosse_us">
+            <div class="w_c_u_text">
+                <div id="w_c_u_title">
+                    Why Choose Us
+                </div>
+                <div id="w_c_u_t_paragraph">
+                    Our commitment to offering only the finest organic products ensures that every item you purchase is not only good for you but also good for the planet. 
+                </div>
+            </div>
+            <div class="w_c_u_box">
+                <div class="w_c_u_box_img">
+                    <img src="assets\img\why_us_770x.jpg" id="w_c_u_img">
+                </div>
+                <div class="w_c_u_sub_topic">
+                    <div class="w_c_u_sub">
+                        <img src="assets\img\icons_03_180x.avif" id="w_c_u_s_img">
+                        <div class="w_c_u_s_info">
+                            <div id="w_c_u_s_title">Farm Fresh</div>
+                            <div id="w_c_u_s_info">Savor the unrivaled freshness of our farm-to-table produce, harvested at peak perfection to bring the essence of the countryside straight to your plate.</div>
+                        </div>
+                    </div>
+                    <div class="w_c_u_sub">
+                        <img src="assets\img\icons_02_180x.avif" id="w_c_u_s_img">
+                        <div class="w_c_u_s_info">
+                            <div id="w_c_u_s_title">Authorized Food</div>
+                            <div id="w_c_u_s_info">Every product undergoes rigorous certification processes, ensuring that what you bring home is truly farm fresh</div>
+                        </div>
+                    </div>
+                    <div class="w_c_u_sub">
+                        <img src="assets\img\icons_180x.avif " id="w_c_u_s_img">
+                        <div class="w_c_u_s_info">
+                            <div id="w_c_u_s_title">100% Non Chemical</div>
+                            <div id="w_c_u_s_info">Every product is meticulously sourced and rigorously tested to ensure a 100% chemical-free promise, providing you with the confidence to nourish yourself and your loved ones naturally</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /////////////////////////////////////////////////////////////////////////////// -->
+        <div class="latest_blog">
+            <div class="l_b_text">
+                <span id="l_b_title"> Latest Blogs </span>
+                <span id="l_b_view_more"> View more ➔ </span>
+            </div>
+            <div class="latest_blog_section">
+                <div class="latest_blog_box">
+                    <div class="l_b_box_img">
+                        <img src="assets\img\lb1.png" id="l_b_img">
+                    </div>
+                    <div class="l_b_box_text">
+                        <div id="l_b_box_title">"Crunch into Health: The Bounty of Vegetables</div>
+                        <div id="l_b_box_info">Dive into the world of vegetables and discover the colorful array of nutrients they offer for a vibrant, healthy lifestyle.</div>
+                    </div>
+                </div>
+                <div class="latest_blog_box">
+                    <div class="l_b_box_img">
+                        <img src="assets\img\lb2.png" id="l_b_img">
+                    </div>
+                    <div class="l_b_box_text">
+                        <div id="l_b_box_title">Fruitful Delights: Exploring Nature's Sweet Treasures </div>
+                        <div id="l_b_box_info">From succulent berries to juicy citrus, join us on a journey through the tantalizing world of fruits and their myriad of flavors and benefits.</div>
+                    </div>
+                </div>
+                <div class="latest_blog_box">
+                    <div class="l_b_box_img">
+                        <img src="assets\img\lb3.png" id="l_b_img">
+                    </div>
+                    <div class="l_b_box_text">
+                        <div id="l_b_box_title">Spice Up Your Life: Unveiling the Secrets of Exotic Flavors</div>
+                        <div id="l_b_box_info">Delve into the aromatic realm of spices, where each sprinkle adds depth and character to your culinary creations while offering surprising health benefits.</div>
+                    </div>
+                </div>
+                <div class="latest_blog_box">
+                    <div class="l_b_box_img">
+                        <img src="assets\img\lb4.png" id="l_b_img">
+                    </div>
+                    <div class="l_b_box_text">
+                        <div id="l_b_box_title">Sow, Grow, Nourish: Embracing the Organic Food Revolution</div>
+                        <div id="l_b_box_info">Explore the virtues of organic food production and consumption, as we uncover how it promotes health, sustainability, and a deeper connection to nature.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////     -->
+    <!-- ////////////////////////////////////////////////////////////////////// -->
+    <footer>
+        <div class="footer">
+            <div class="company">
+                <div class="footer_logo"><img src="assets\img\logo_dark.png" id="f_l_img"></div>
+                <div class="company_info">Natural Blessings offers a vibrant online marketplace where customers can discover the freshest vegetables, juiciest fruits, and most aromatic spices, sourced directly from local farmers and growers.</div>
+                <div class="share_icon">
+                    <div class="f_i_box"><img src="assets\img\instagram.png" id="f_i_img"></div>
+                    <div class="f_i_box"><img src="assets\img\facebook.png" id="f_i_img"></div>
+                    <div class="f_i_box"><img src="assets\img\youtube.png" id="f_i_img"></div>
+                    <div class="f_i_box"><img src="assets\img\telegram.png" id="f_i_img"></div>
+                    <div class="f_i_box"><img src="assets\img\linkedin.png" id="f_i_img"></div>
+                </div>
+            </div>
+            <div class="information">
+                <div class="i_title">Information</div>
+                <ul class="info_ul">
+                    <li class="info_list">Our company</li>
+                    <li class="info_list">Contact Us</li>
+                    <li class="info_list">Our services</li>
+                    <li class="info_list">Why We?</li>
+                    <li class="info_list">Careers</li>
+                </ul>
+            </div>
+            <div class="Quicklink">
+                <div class="q_title">QuickLink</div>
+                <ul class="q_ul">
+                    <li class="q_list">About</li>
+                    <li class="q_list">Blog</li>
+                    <li class="q_list">Shop</li>
+                    <li class="q_list">Cart</li>
+                    <li class="q_list">Contact</li>
+                </ul>
+            </div>
+            <div class="Support">
+                <div class="s_title">Support</div>
+                <ul class="s_ul">
+                    <li class="s_list">Online Support</li>
+                    <li class="s_list">Shipping Policy</li>
+                    <li class="s_list">Return Policy</li>
+                    <li class="s_list">Privacy Policy</li>
+                    <li class="s_list">Terms of Service</li>
+                </ul>
+            </div>
+            <div class="store_info">
+                <div class="s_i_title">Store Information</div>
+                <ul class="s_i_ul">
+                    <li class="s_i_list">SHREE SWAMI ATMANAND SARASWATI VIDHYA SANKUL
+                        Kapodra, Varachha Road, Surat, Gujarat. 395006, India</li>
+                    <li class="s_i_list">Phone: 01254 698 785, 36598 254 987</li>
+                    <li class="s_i_list">Email: nb@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

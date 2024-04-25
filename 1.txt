@@ -1,0 +1,181 @@
+position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    height: 50vw;
+    z-index: 100;
+    text-align: center;
+    position: fixed;
+    border: solid white;
+    top:0px;
+    display: none;
+    transition: all;
+    .f_line {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .login_text {
+        margin: 10px;
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        flex-grow: 4;
+    }
+
+    .close {
+        color: red;
+        font-weight: 900;
+        z-index: 800;
+        width: 30px;
+        height: 30px;
+        margin: 2px;
+        background-color: white;
+        display: flex;
+
+        .c_t {
+            margin: auto;
+        }
+    }
+
+    #as {
+        color: white;
+        font-size: 23px;
+    }
+
+    .e_i {
+        margin: 20px;
+    }
+
+    #email_id {
+        height: 25px;
+        width: 200px;
+        font-weight: 790;
+        color: green;
+        border-radius: 10px;
+    }
+
+    #password {
+        height: 25px;
+        width: 200px;
+        font-weight: 790;
+        color: green;
+        border-radius: 10px;
+
+    }
+
+}
+.l_m{
+    background-color: #181920;
+    box-shadow: 1px 3px 6px 3px #394867;
+}
+
+select {
+    border-radius: 9px;
+}
+
+#e_s {
+    margin: 15px;
+    background-color: rgb(16, 196, 16);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: white;
+    font-weight: 750;
+    font-size: 18px;
+    border-radius: 115px;
+}
+
+#e_s:focus {
+    background-color: rgb(12, 135, 12);
+
+}
+
+.login_menu:target {
+    display: block;
+}
+
+.c_t:target {
+    display: block;
+}
+
+@media(max-width:850px) {
+    #loc {
+        display: none;
+    }
+}
+
+@media(max-width:620px) {
+    #logo_img {
+        height: 50px;
+        width: 150px;
+    }
+}
+
+@media(max-width:400px) {
+    #logo_img {
+        height: 35px;
+        width: auto;
+    }
+}
+
+@media(max-width:365px) {
+    #add_img {
+        display: none;
+    }
+}
+
+@media(max-width:355px) {
+    #login_img {
+        height: 28px;
+        width: 28px;
+    }
+
+    .login {
+        height: 28px;
+        width: 28px;
+    }
+}
+
+
+
+
+
+
+
+
+<div id="as">As : </div>
+                    <select name="Login_user" id="user">
+                        <option value="Customer">
+                            Customer
+                        </option>
+                        <option value="farmer">
+                            farmer
+                        </option>
+                    </select>
+
+
+
+
+ <div class="l_m">
+                    <div class="f_line">
+                        <div class="login_text">Login</div>
+                        <div class="close">
+                            <div class="c_t"><a id="c_t1" href="#" class="closebtn">X</a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="e_i">
+                        <label for="email_id">
+                            <input type="text" id="email_id" placeholder="Email id..">
+                        </label>
+                    </div>
+                    <div class="pass">
+                        <label for="password">
+                            <input type="text" id="password" placeholder="Password...">
+                        </label>
+                    </div>
+                    <button type="submit" id="e_s">Submit</button>
+                </div>  
